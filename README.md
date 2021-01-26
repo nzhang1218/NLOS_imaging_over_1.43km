@@ -13,7 +13,7 @@ Data
 The experimental lidar data is obtained by our new single-photon lidar system, including a letter 'H.mat' and a mannequin 'mannequin.mat'.
 Instructions for the experimental data:
 
-'data_processed': (type: 64 \times 64 \times 512 double), it contains the temporal distribution(histogram) of arrival photons at each pixel.
+'data_processed': (type: 64 * 64 * 512 double), it contains the temporal distribution(histogram) of arrival photons at each pixel.
 'timeResolution': (type: double), it represents the time resolution of the time-digital-convertet(TDC) (unit:s)
 'pulsewidth': (type: double), it represents the pulse width of the histogram in 'data_processed' (unit:s)
 'width': (type: double), it represents the width of scanning area

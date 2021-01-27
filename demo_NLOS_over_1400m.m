@@ -7,14 +7,12 @@ switch (num)
         depth_min = 0.75;
         depth_max = 0.82;
         threshold = 0.35;
-        load('H_cmp.mat');
         object = 'H';
     case 2
         dataset = load('./data/mannequin.mat');
         depth_min = 0.6;
         depth_max = 1;
         threshold = 0.08;
-        load('mannequin_cmp.mat')
         object = 'mannequin';
 end     
 

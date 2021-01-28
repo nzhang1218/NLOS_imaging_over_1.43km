@@ -6,19 +6,19 @@ Corresponding author: feihuxu@ustc.edu.cn.
 
 To try the codes, just download the zip and run the "demo_12_08_2020.m" in MATLAB. Warning: the code was tested using MATLAB 2018a and 2018b, it might be incompatible with older versions.
 
-Attribution
+## Attribution
 
-Data
+### Data
 
 The experimental lidar data is obtained by our new single-photon lidar system, including a letter 'H.mat' and a mannequin 'mannequin.mat'.
 Instructions for the experimental data:
 
-'data_processed': (type: 64 * 64 * 512 double), it contains the temporal distribution(histogram) of arrival photons at each pixel.
-'timeResolution': (type: double), it represents the time resolution of the time-digital-convertet(TDC) (unit:s)
-'pulsewidth': (type: double), it represents the pulse width of the histogram in 'data_processed' (unit:s)
-'width': (type: double), it represents the width of scanning area
+- 'data_processed': (type: 64 * 64 * 512 double), it contains the temporal distribution(histogram) of arrival photons at each pixel.
+- 'timeResolution': (type: double), it represents the time resolution of the time-digital-convertet(TDC) (unit:s)
+- 'pulsewidth': (type: double), it represents the pulse width of the histogram in 'data_processed' (unit:s)
+- 'width': (type: double), it represents the width of scanning area
 
-Code
+### Code
 
 Our algorithm is based on following two papers:
 

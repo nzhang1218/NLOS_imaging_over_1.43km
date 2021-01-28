@@ -14,13 +14,13 @@ The experimental NLOS imaging data is obtained by our novel NLOS lidar system, i
 Instructions for the experimental data:
 
 - 'sig_in': (type: 64 * 64 * 512 double), it contains the temporal distribution(histogram) of arrival photons at each pixel.
-- 'timeRes': (type: double), it represents the time resolution of the time-digital-convertet(TDC) (unit:s)
+- 'timeRes': (type: double), it represents the time resolution of the time-digital-converter(TDC) (unit:s)
 - 'pulsewidth': (type: double), it represents the pulse width of the histogram in 'data_processed' (unit:s)
 - 'width': (type: double), it represents the width of scanning area
 
 ### Code
 
-Our algorithm is based on following two papers:
+Our algorithm is based on the following two papers:
 
 O’Toole, Matthew, David B. Lindell, and Gordon Wetzstein. "Confocal non-line-of-sight imaging based on the light-cone transform." Nature 555.7696 (2018): 338-341.
 

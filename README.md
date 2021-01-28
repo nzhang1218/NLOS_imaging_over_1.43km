@@ -4,7 +4,7 @@ This demo includes data and MATLAB codes used in the paper "Non-line-of-sight im
 
 Corresponding author: feihuxu@ustc.edu.cn.
 
-To try the codes, just download the zip and run the "demo_NLOS_over_1400m.m" in MATLAB. Warning: the code was tested using MATLAB 2018a and 2018b, it might be incompatible with older versions.
+To try the codes, just download the zip and run the "demo_NLOS_over_1400m.m" in MATLAB. Warning: the code was tested using MATLAB 2018a and 2018b, and it might be incompatible with older versions.
 
 ## Attribution
 
@@ -13,7 +13,7 @@ To try the codes, just download the zip and run the "demo_NLOS_over_1400m.m" in 
 The experimental NLOS imaging data is obtained by our novel NLOS lidar system, including a letter 'H.mat' and a mannequin 'mannequin.mat'.
 Instructions for the experimental data:
 
-- 'sig_in': (type: 64 * 64 * 512 double), it contains the temporal distribution(histogram) of arrival photons at each pixel.
+- 'sig_in': (type: 64 /* 64 /* 512 double), it contains the temporal distribution(histogram) of arrival photons at each pixel.
 - 'timeRes': (type: double), it represents the time resolution of the time-digital-converter(TDC) (unit:s)
 - 'pulsewidth': (type: double), it represents the pulse width of the histogram in 'data_processed' (unit:s)
 - 'width': (type: double), it represents the width of scanning area

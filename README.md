@@ -13,7 +13,7 @@ To try the codes, just download the zip and run the "demo_NLOS_over_1400m.m" in 
 The experimental NLOS imaging data is obtained by our novel NLOS lidar system, including a letter 'H.mat' and a mannequin 'mannequin.mat'.
 Instructions for the experimental data:
 
-- 'sig_in': (type: 64 * 64 * 512 double), it contains the temporal distribution(histogram) of arrival photons at each pixel
+- 'sig_in': (type: $ 64 \times 64 \times 512 $ double), it contains the temporal distribution(histogram) of arrival photons at each pixel
 - 'timeRes': (type: double), it represents the time resolution of the time-digital-converter(TDC) (unit:s)
 - 'pulsewidth': (type: double), it represents the time jitter of the whole system (unit:s)
 - 'width': (type: double), it represents the width of scanning area

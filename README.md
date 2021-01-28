@@ -4,7 +4,7 @@ This demo includes data and MATLAB codes used in the paper "Non-line-of-sight im
 
 Corresponding author: feihuxu@ustc.edu.cn.
 
-To try the codes, just download the zip and run the "demo_12_08_2020.m" in MATLAB. Warning: the code was tested using MATLAB 2018a and 2018b, it might be incompatible with older versions.
+To try the codes, just download the zip and run the "demo_NLOS_over_1400m.m" in MATLAB. Warning: the code was tested using MATLAB 2018a and 2018b, it might be incompatible with older versions. To obtain a result, 300 iterations are needed, which will cost about 1 hour using a computer with i9-10900K.
 
 ## Attribution
 
